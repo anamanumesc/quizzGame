@@ -1,0 +1,18 @@
+comenzi retele
+
+
+
+
+pt compilarea serverului:
+gcc server.c -o server -lsqlite3 -lpthread 
+
+
+pt a rula clientul:
+./client 127.0.0.1 2908
+
+pt a rula serverul
+./server
+
+
+
+merge cu un server si mai multi clienti 
